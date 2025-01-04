@@ -1,0 +1,7 @@
+[
+    ["NOUN", "ADP", "NOUN"],
+    ["ADJ", "NOUN"],
+    ["NOUN", "VERB", "ADV"],
+    ["ADV", "VERB"],
+    ["PRON", "VERB", "ADP", "NOUN"]
+]

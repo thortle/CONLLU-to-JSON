@@ -1,0 +1,105 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# macrosyntax = "euh" il y a une petite bifurcation "euh" juste avant la place du Tribunal //
+# sent_id = Rhap_M0001-9
+# text = euh, il y a une petite bifurcation, euh, juste avant la place du Tribunal.
+1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
+5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	petite	petit	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	bifurcation	bifurcation	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	juste	juste	ADJ	_	Number=Sing	15	amod	_	_
+13	avant	avant	ADP	_	_	15	case	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	place	place	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+16-17	du	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Tribunal	Tribunal	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# macrosyntax = tu passes à côté d'une petite fontaine //
+# sent_id = Rhap_M0001-10
+# text = tu passes à côté d'une petite fontaine.
+1	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	passes	passer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	à	à	ADP	_	_	4	case	_	_
+4	côté	côté	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
+5	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	petite	petit	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	fontaine	fontaine	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# macrosyntax = tu arrives place aux Herbes avec { une | une } sorte { de halle "quoi" | { de | de | de } structure métallique } //
+# sent_id = Rhap_M0001-11
+# text = tu arrives place aux Herbes avec une, une sorte de halle, quoi, de, de, de structure métallique.
+1	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	place	place	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4-5	aux	_	_	_	_	_	_	_	_
+4	à	à	ADP	_	_	6	case	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	Herbes	Herbes	PROPN	_	_	3	nmod	_	_
+7	avec	avec	ADP	_	_	11	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	reparandum	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	halle	halle	NOUN	_	Gender=Fem|Number=Sing	22	reparandum	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	quoi	quoi	INTJ	_	_	13	discourse	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	13	punct	_	_
+17	de	de	ADP	_	_	22	reparandum	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	de	de	ADP	_	_	22	reparandum	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	structure	structure	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+23	métallique	métallique	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# macrosyntax = tu continues { la rue | la petite rue } //
+# sent_id = Rhap_M0001-12
+# text = tu continues la rue, la petite rue.
+1	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	rue	rue	NOUN	_	Gender=Fem|Number=Sing	8	reparandum	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	petite	petit	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	rue	rue	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# macrosyntax = ^et tu arrives à la fontaine "euh" place Notre-Dame //
+# sent_id = Rhap_M0001-13
+# text = et tu arrives à la fontaine, euh, place Notre-Dame.
+1	et	et	CCONJ	_	_	3	cc	_	_
+2	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	à	à	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fontaine	fontaine	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	place	place	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+11	Notre-Dame	Notre-Dame	PROPN	_	_	10	nmod:appos	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# macrosyntax = ^et "ben" voilà //
+# sent_id = Rhap_M0001-14
+# text = et, ben, voilà.
+1	et	et	CCONJ	_	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	ben	ben	INTJ	_	_	5	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
